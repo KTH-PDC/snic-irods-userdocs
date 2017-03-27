@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'SNIC iRODS User Documentation'
+project = u'SNIC Swestore'
 copyright = u'2017, Dejan Vitlacil and Ilari Korhonen'
 author = u'Dejan Vitlacil and Ilari Korhonen'
 
@@ -106,7 +106,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'SNICiRODSUserDocumentationdoc'
+htmlhelp_basename = 'SNICSwestore'
 
 
 # -- Options for LaTeX output ---------------------------------------------

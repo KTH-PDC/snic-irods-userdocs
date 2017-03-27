@@ -3,9 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to SNIC iRODS User Documentation's documentation!
+SNIC Swestore Documentation
 =========================================================
 
+About Swestore
+```````````````
 
 Swestore is National Research Data Storage Infrastructure operated by the Swedish National Infrastructure for Computing (SNIC). 
 
