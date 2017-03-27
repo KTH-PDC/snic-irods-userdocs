@@ -6,10 +6,21 @@
 Welcome to SNIC iRODS User Documentation's documentation!
 =========================================================
 
+
+Swestore is National Research Data Storage Infrastructure operated by the Swedish National Infrastructure for Computing (SNIC). 
+
+
+
+
+
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+   Swestore_dCache
+   Swestore_iRODS
 
 
 Indices and tables
