@@ -29,7 +29,7 @@ Due to the current funding model, the available allocations on Swestore have som
 
    Swestore_dCache
    Swestore_iRODS
-
+   Glossary
 
 Indices and tables
 ==================
