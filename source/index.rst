@@ -29,6 +29,8 @@ Due to the current funding model, the available allocations on Swestore have som
 
    Swestore_dCache
    Swestore_iRODS
+   Grid_certificates
+   Support
    Glossary
 
 Indices and tables

@@ -10,3 +10,9 @@ One of the major advantages to the distributed nature of Swestore is the excelle
 To protect against silent data corruption the dCache storage system checksums all stored data and periodically verifies the data using this checksum.
 
 The dCache system does NOT yet provide protection against user errors like inadvertent file deletions.
+
+.. toctree::
+   :maxdepth: 1
+
+   Getting_access_to_Swestore_dCache
+   Using_Swestore_dCache
