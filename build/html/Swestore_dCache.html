@@ -1,0 +1,227 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Swestore dCache &mdash; SNIC Swestore 1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="SNIC Swestore 1.0 documentation" href="index.html"/>
+        <link rel="next" title="Getting access to Swestore dCache" href="Getting_access_to_Swestore_dCache.html"/>
+        <link rel="prev" title="Apply for storage (for the PI)" href="Apply_for_storage.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> SNIC Swestore
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Apply_for_storage.html">Apply for storage (for the PI)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Swestore dCache</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Getting_access_to_Swestore_dCache.html">Getting access to Swestore dCache</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Using_Swestore_dCache.html">Using Swestore dCache</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Swestore_iRODS.html">Swestore iRODS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Grid_certificates.html">Grid certificates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Support.html">Support and Help Desk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Glossary.html">Glossary</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">SNIC Swestore</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>Swestore dCache</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="https://github.com/KTH-PDC/snic-irods-userdocs/blob/master/source/Swestore_dCache.rst" class="fa fa-github"> Edit on GitHub</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="swestore-dcache">
+<h1>Swestore dCache<a class="headerlink" href="#swestore-dcache" title="Permalink to this headline">¶</a></h1>
+<p>Swestore is distributed across the SNIC centres <a class="reference external" href="http://www.c3se.chalmers.se">C3SE</a>, <a class="reference external" href="https://www.hpc2n.umu.se/">HPC2N</a>, <a class="reference external" href="http://www.lunarc.lu.se/">Lunarc</a>, <a class="reference external" href="https://www.nsc.liu.se/">NSC</a> and <a class="reference external" href="http://www.uppmax.uu.se/">Uppmax</a>.</p>
+<p>Data is stored in two copies with each copy at a different SNIC centre. This enables the system to cope with a multitude of issues ranging from a simple crash of a storage element to losing an entire site while still providing access to the stored data.</p>
+<p>One of the major advantages to the distributed nature of Swestore is the excellent aggregated transfer rates possible. This is achieved by bypassing a central node and having transfers going directly to/from the storage elements if the selected transfer protocol allows it. Swestore can achieve aggregated transfer rates in excess of 100 Gigabit per second, but in practice this is limited by connectivity to the end user, each university or a limited number of files (typically max 1 Gbit/s per file/connection).</p>
+<p>To protect against silent data corruption the dCache storage system checksums all stored data and periodically verifies the data using this checksum.</p>
+<p>The dCache system does NOT yet provide protection against user errors like inadvertent file deletions.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Getting_access_to_Swestore_dCache.html">Getting access to Swestore dCache</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Using_Swestore_dCache.html">Using Swestore dCache</a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="Getting_access_to_Swestore_dCache.html" class="btn btn-neutral float-right" title="Getting access to Swestore dCache" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="Apply_for_storage.html" class="btn btn-neutral" title="Apply for storage (for the PI)" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Dejan Vitlacil and Ilari Korhonen.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
