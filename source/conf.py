@@ -50,8 +50,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'SNIC Swestore'
-copyright = u'2017, Dejan Vitlacil and Ilari Korhonen'
-author = u'Dejan Vitlacil and Ilari Korhonen'
+copyright = u'2017, Swedish National Infrastructure for Computing (SNIC)'
+author = u'SNIC Storage'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
