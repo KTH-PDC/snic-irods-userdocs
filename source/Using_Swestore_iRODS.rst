@@ -13,7 +13,7 @@ The command line client may be downloaded from `iRODS Download page <http://irod
 A template of this file is available: **download irods_environment.json**. You must edit this with a text editor (not MS word, but notepad for Windows, textEdit for Mac or any Unix editor) and put your SNIC username in the place for <YOUR_SNIC_USER_NAME>.::
 
  {
-    "irods_host": "snic2-irods.nsc.liu.se",
+    "irods_host": "irods-login.swestore.se",
     "irods_port": 2432,
     "irods_default_resource": "SNICDisk",
     "irods_home": "/rds.snic.se/home/<YOUR_SNIC_USER_NAME>",
@@ -28,7 +28,7 @@ A template of this file is available: **download irods_environment.json**. You m
     "irods_encryption_algorithm": "AES-256-CBC",
     "irods_default_hash_scheme": "SHA256",
     "irods_match_hash_policy": "compatible",
-    "irods_authentication_scheme": "KRB"
+    "irods_authentication_scheme": "PAM"
  }
 
 
@@ -50,9 +50,14 @@ Graphical User Interface (GUI) clients are known to work on some operating syste
 
 From a web browser
 ^^^^^^^^^^^^^^^^^^^
-Swestore iRODS is accessible in your web browser as a simple directory index interface at https://webdav-iRODS.swestore.se/. 
-To browse private data you need to authenticate with your username and password.  
+ Davrods
+  Swestore iRODS is accessible in your web browser as a simple directory index interface at https://irods-webdav.swestore.se:8003/. 
+  To browse private data you need to authenticate with your username and password.  
 
- * **Projects** are organized under the /projects directory as https://webdav-iRODS.swestore.se/projects/YOUR_PROJECT_NAME/.
- * **Home** can be accessed at https://webdav-iRODS.swestore.se/home/YOUR_USER_NAME/. 
- * **Public** can be accessed at https://webdav-iRODS.swestore.se/home/public/. 
+ * **Projects** are organized under the /projects directory as https://irods-webdav.swestore.se:8003/projects/YOUR_PROJECT_NAME/.
+ * **Home** can be accessed at https://irods-webdav.swestore.se:8003/home/YOUR_USER_NAME/. 
+ * **Public** can be accessed at https://irods-webdav.swestore.se:8003/home/public/. 
+
+ EMC Metalnx
+  The EMC Metalnx is an administrative and metadata management user interface (UI) for iRODS. You can access it at https://irods-web.swestore.se
+
