@@ -22,6 +22,8 @@ Due to the current funding model, allocations made available through open proced
 
  * Swestore allocations are NOT supposed to be used for backups and such requests for allocation will be rejected. Please, check with your university (home institution/organisation) IT department about backup services, strategies and policies in place. If such services do not exist or if you can’t access them for different reasons, please contact us at support@swestore.se;
  * Swestore is NOT supposed to be used as archiving service, long-term storage or repository for “static” data. Once data is no longer in the process of change, and decision on which data should be retained shared and/or preserved has been taken, data should be moved toward appropriate data services. The higher education institutions are responsible for archiving and long-term preservation of research data produced by researchers employed by them;
+ 
+ If you would like to purchase SNIC Storage services and/or Swestore storage allocation, please contact SNIC Office at office@snic.se 
 
 .. toctree::
    :maxdepth: 2
