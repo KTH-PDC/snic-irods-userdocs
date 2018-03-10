@@ -11,7 +11,7 @@ About Swestore
 
 Swestore is National Research Data Storage Infrastructure operated by the Swedish National Infrastructure for Computing (`SNIC <http://www.snic.se>`_). 
 
-The resources provided by Swestore are made available through open procedures such that the best Swedish research is supported and new research is facilitated. The purpose of Swestore allocations, granted by Swedish National Allocations Committee (`SNAC <http://www.snic.vr.se/snic-committees/snac>`_), is to provide large scale data storage for “live” or “working” research data, also known as active research data.
+The resources provided by Swestore are made available through open procedures such that the best Swedish research is supported and new research is facilitated. The purpose of Swestore allocations, granted by Swedish National Allocations Committee (`SNAC <http://www.snic.vr.se/snic-committees/snac>`_), is to provide large scale data storage for “live” or “working” research data, also known as **active research data**.
 
 
 .. figure:: research_data_life_diagram.jpg
