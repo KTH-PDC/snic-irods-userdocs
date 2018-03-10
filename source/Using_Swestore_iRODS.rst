@@ -39,11 +39,11 @@ From GUI client
 ^^^^^^^^^^^^^^^^^
 Graphical User Interface (GUI) clients are known to work on some operating systems.
 
- Cyberduck (5.2.3)
-   Is graphical client for Windows and OS X.
+ Cyberduck
+   Is a graphical client for Windows and OS X.
    
-   #. Firstly you must download and install the cyberduck software. This is available from `Cyberduck Website <https://cyberduck.io/?l=en>`_. The version must be at least 4.7.1 for iRODS to be supported. We recommend version 5.2.3, as there currently seems to be an issue with the most recent version.
-   #. You then download the **cyberduck profile** (right click and select 'save link as' to download). Then click on the profile, cyberduck should then open the connection as a cyberduck book mark.
+   #. Download and install Cyberduck from https://cyberduck.io.
+   #. Download and open the **Swestore iRODS cyberduck profile** (right click and select 'save link as' to download). Then click on the profile, cyberduck should then open the connection as a cyberduck book mark.
    #. Edit the profile as below changing the path to /snic.se/home/<YOUR_SNIC_USER_NAME> 
    #. Close the profile and double click on the bookmark in cyberduck - if the bookmark is not visible, then you can bring it up by going to the menu Bookmark->toggle bookmarks. This should bring up the login prompt. Enter your SNIC username and password. A peculiarity of cyberduck with iRODS is that you must put the text PAM: before your username as is shown below.
    #. Once you have successfully authenticated you should get a view of your home directory.
