@@ -48,9 +48,6 @@ Graphical User Interface (GUI) clients are known to work on some operating syste
    #. Close the profile and double click on the bookmark in cyberduck - if the bookmark is not visible, then you can bring it up by going to the menu Bookmark->toggle bookmarks. This should bring up the login prompt. Enter your SNIC username and password. A peculiarity of cyberduck with iRODS is that you must put the text PAM: before your username as is shown below.
    #. Once you have successfully authenticated you should get a view of your home directory.
 
- Kanki
-   <SOMETHING>
-
 From a web browser
 ^^^^^^^^^^^^^^^^^^^
  Davrods
