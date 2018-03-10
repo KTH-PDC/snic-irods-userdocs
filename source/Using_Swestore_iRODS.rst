@@ -6,9 +6,11 @@ Download and upload data
 
 From the command line
 ^^^^^^^^^^^^^^^^^^^^^^
-There are several command line tools capable of using the protocols provided by Swestore iRODS. For interactive usage on SNIC clusters we recommend using the iCommands which should be installed on all SNIC resources. There are too many commands to document fully here. Full and updated documentation is available at the `iRODS official Documentation <https://docs.irods.org/master/icommands/user/>`_.
+There are several command line tools capable of using the protocols provided by Swestore iRODS. For interactive usage on SNIC clusters we recommend using the iCommands which should be installed on all SNIC resources. There are too many commands to document fully here. 
 
-The command line client may be downloaded from `iRODS Download page <http://irods.org/download/>`_. Currently the distributions supported are CentOS, Ubuntu and OpenSuSE. Configuration of the icommands requires a file called irods_environment.json to be placed in a subdirectory .irods of your home directory (note the dot at the start of the directory name).
+ - Please check full and updated documentation at `iRODS official Documentation <https://docs.irods.org/master/icommands/user/>`_.
+ - The command line client may be downloaded from `iRODS Download page <http://irods.org/download/>`_. 
+ - Configuration of the icommands requires a file called irods_environment.json to be placed in a subdirectory .irods of your home directory (note the dot at the start of the directory name).
 
 A template of this file is available: **download irods_environment.json**. You must edit this with a text editor (not MS word, but notepad for Windows, textEdit for Mac or any Unix editor) and put your SNIC username in the place for <YOUR_SNIC_USER_NAME>.::
 
