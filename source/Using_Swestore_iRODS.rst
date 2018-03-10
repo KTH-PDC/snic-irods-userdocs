@@ -18,10 +18,10 @@ A template of this file is available: **download irods_environment.json**. You m
     "irods_host": "irods-login.swestore.se",
     "irods_port": 2432,
     "irods_default_resource": "SNICDisk",
-    "irods_home": "/rds.snic.se/home/<YOUR_SNIC_USER_NAME>",
-    "irods_cwd": "/rds.snic.se/home/<YOUR_SNIC_USER_NAME>",
+    "irods_home": "/snic.se/home/<YOUR_SNIC_USER_NAME>",
+    "irods_cwd": "/snic.se/home/<YOUR_SNIC_USER_NAME>",
     "irods_user_name": "<YOUR_SNIC_USER_NAME>",
-    "irods_zone_name": "rds.snic.se",
+    "irods_zone_name": "snic.se",
     "irods_client_server_negotiation": "request_server_negotiation",
     "irods_client_server_policy": "CS_NEG_REFUSE",
     "irods_encryption_key_size": 32,
@@ -43,7 +43,7 @@ Graphical User Interface (GUI) clients are known to work on some operating syste
    
    #. Firstly you must download and install the cyberduck software. This is available from `Cyberduck Website <https://cyberduck.io/?l=en>`_. The version must be at least 4.7.1 for iRODS to be supported. We recommend version 5.2.3, as there currently seems to be an issue with the most recent version.
    #. You then download the **cyberduck profile** (right click and select 'save link as' to download). Then click on the profile, cyberduck should then open the connection as a cyberduck book mark.
-   #. Edit the profile as below changing the path to /rds.snic.se/home/<YOUR_SNIC_USER_NAME> 
+   #. Edit the profile as below changing the path to /snic.se/home/<YOUR_SNIC_USER_NAME> 
    #. Close the profile and double click on the bookmark in cyberduck - if the bookmark is not visible, then you can bring it up by going to the menu Bookmark->toggle bookmarks. This should bring up the login prompt. Enter your SNIC username and password. A peculiarity of cyberduck with iRODS is that you must put the text PAM: before your username as is shown below.
    #. Once you have successfully authenticated you should get a view of your home directory.
 
