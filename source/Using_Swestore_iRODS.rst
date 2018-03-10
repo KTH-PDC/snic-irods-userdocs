@@ -47,7 +47,11 @@ Graphical User Interface (GUI) clients are known to work on some operating syste
    #. Edit the profile as below changing the path to /snic.se/home/<YOUR_SNIC_USER_NAME> 
    #. Close the profile and double click on the bookmark in cyberduck - if the bookmark is not visible, then you can bring it up by going to the menu Bookmark->toggle bookmarks. This should bring up the login prompt. Enter your SNIC username and password. A peculiarity of cyberduck with iRODS is that you must put the text PAM: before your username as is shown below.
    #. Once you have successfully authenticated you should get a view of your home directory.
-
+   
+ Access using WebDAV (map a network drive)
+    https://snic-irods-webdav.pdc.kth.se:8443/snic.se/home/
+   
+   
 From a web browser
 ^^^^^^^^^^^^^^^^^^^
  Davrods
