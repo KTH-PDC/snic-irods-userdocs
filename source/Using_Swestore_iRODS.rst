@@ -12,7 +12,8 @@ There are several command line tools capable of using the protocols provided by 
  - The command line client may be downloaded from `iRODS Download page <http://irods.org/download/>`_. 
  - Configuration of the icommands requires a file called **irods_environment.json** to be placed in a subdirectory **.irods/** of your home directory (e.g. ~/.irods/irods_environment.json).
  - A template of this file is available: **download irods_environment.json**. 
- - You must edit this with a text editor (not MS word, but notepad for Windows, textEdit for Mac or any Unix editor) and put your SNIC username in the place for <YOUR_SNIC_USER_NAME>.::
+
+You must edit this with a text editor (not MS word, but notepad for Windows, textEdit for Mac or any Unix editor) and put your SNIC username in the place for <YOUR_SNIC_USER_NAME>.::
 
  {
     "irods_host": "irods-login.swestore.se",
