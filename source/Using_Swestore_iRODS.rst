@@ -49,9 +49,13 @@ Graphical User Interface (GUI) clients are known to work on some operating syste
    #. Once you have successfully authenticated you should get a view of your home directory.
    
  Access using WebDAV (map a network drive)
+  - WebDAV on Windows 10
     https://snic-irods-webdav.pdc.kth.se:8443/snic.se/home/
-   
-   
+  - WebDAv on OS X
+    https://snic-irods-webdav.pdc.kth.se:8443/snic.se/home/
+  - WebDAV on Linux
+    https://snic-irods-webdav.pdc.kth.se:8443/snic.se/home/
+    
 From a web browser
 ^^^^^^^^^^^^^^^^^^^
  Davrods
